@@ -1,0 +1,28 @@
+.ledIcon {
+  background-color: #f44336;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.ledIconBlinking {
+  background-color: #f44336;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

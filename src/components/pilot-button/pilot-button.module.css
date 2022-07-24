@@ -1,0 +1,23 @@
+.pilotButton {
+  background-color: darkslategray;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: 1px solid #d5d5d5;
+  font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.pilotButton:hover {
+  background-color: darkcyan;
+  color: darkslategray;
+}
+
+.pilotButtonSelected {
+  composes: pilotButton;
+  background-color: darkcyan;
+  color: white;
+}

@@ -1,0 +1,22 @@
+.pilotArea {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pilotGrid {
+  padding: 20px;
+  margin-top: -15px;
+  width: 100%;
+  /* grid with 3 columns */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: #a8a8a8;
+  border-radius: 8px;
+  justify-items: center;
+}
